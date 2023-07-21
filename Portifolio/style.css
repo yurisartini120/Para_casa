@@ -1,0 +1,57 @@
+p{
+    font-size: 20px;
+    
+}
+body {
+    background-color: white;
+    
+}
+.ei{
+    align-items: center;
+    display: flex;
+    margin-left: 0%;
+    text-align: left;
+    margin-top: 10%;
+}
+
+.Perfil {
+    text-align: center;
+  
+}
+
+.Sobre_mim {
+    left: 100%;
+    margin-right: 15%;
+    width: 57%;
+    
+}
+
+.info {
+   position: relative;
+    margin: 10px;
+    width: 57%;
+    left: 1%;
+}
+
+
+
+
+.img {
+    text-align: center;
+}
+
+ .Detalhes {
+ text-align: right;
+    width: 90%;
+    height: 100%;
+    margin-right: 5%;
+
+}
+
+/* .det{
+   
+    width: 90%;
+    height: 100%;
+
+
+} */

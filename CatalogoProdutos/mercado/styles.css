@@ -1,0 +1,43 @@
+body{
+    flex-wrap: wrap;
+    background-color: rgb(163, 6, 53);
+    margin: 10%;
+    
+    border: 1px solid black
+    
+}
+
+
+
+
+main{
+    background-color: rgb(228, 214, 214);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    color: red;
+    box-shadow: none;
+}
+header{
+    background-color: black;
+}
+
+.container{
+    text-align: center;
+}
+.Produtos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.descricao {
+    border: 1px solid rgb(128, 88, 88);
+    margin-bottom: 10px;
+}
+
+.descricao p {
+    background-color: brown;
+    color: white;
+    padding: 7px 10px;
+   
+}

@@ -1,0 +1,17 @@
+*{
+    background: url(madeira.jpg) ;
+   background-size: 100vh;
+}
+
+body{
+    color: white;
+}
+
+.title{
+    text-align: center;
+}
+
+.alert{
+    text-align: center;
+    color: rgb(253, 215, 0);
+}
