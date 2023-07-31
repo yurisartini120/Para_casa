@@ -1,17 +1,51 @@
 *{
-    background: url(madeira.jpg) ;
-   background-size: 100vh;
+    
+ 
+   
 }
 
 body{
-    color: white;
+    background-color: rgb(180, 181, 189);
+    color: rgb(61, 38, 38);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    text-align: center;
+   
+}
+
+.img{
+    text-align: left;
+}
+
+.alin{
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+    font-size: larger;
+   
+}
+
+.po{
+    padding: 80px;
+    
 }
 
 .title{
     text-align: center;
+   color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: black;
+    box-shadow: 10px 10px 5px black;
+    
+
 }
 
 .alert{
     text-align: center;
     color: rgb(253, 215, 0);
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: rgb(145, 49, 49);
+    box-shadow: 10px 10px 5px rgb(92, 23, 23);
 }

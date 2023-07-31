@@ -15,7 +15,7 @@ main{
 }
 
 .container:hover > .corpo{
-    display: flex;
+    display: block;
 }
 
 .corpo{
@@ -49,6 +49,7 @@ main{
 
 .land{
     border: 2px solid rgb(0, 0, 0);
+    
     
     
 }
