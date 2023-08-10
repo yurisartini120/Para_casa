@@ -15,7 +15,7 @@ main{
 }
 
 .container:hover > .corpo{
-    display: block;
+    display: block;    
 }
 
 .corpo{
