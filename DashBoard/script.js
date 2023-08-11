@@ -1,7 +1,7 @@
 const ctx = document.getElementById('myChart');
 
     let  valores= [ "XXXx","XXXc","XXXv"]
-    let valoresX = [14, 3, 4]
+    let valoresX = [10,20 , 15]
 
 
   new Chart(ctx, {
@@ -12,7 +12,7 @@ const ctx = document.getElementById('myChart');
         label: '# of Votes',
         data: valoresX,
         borderWidth: 1,
-        backgroundColor: ['#7fffd4', '#a52a2a', 'rgb(255, 228, 196)']
+        backgroundColor: ['#08251c', '#a52a2a', 'rgb(255, 228, 196)']
       }]
     },
     options: {
