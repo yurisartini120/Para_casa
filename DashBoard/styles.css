@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html, body{
+    height: 100%;
+}
+header {
+    background-color: rgb(238,238,238);
+    padding: 20px 2%;
+    display: flex ;
+    justify-content: space-between;
+}
+
+.info-header{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.canto-esquerdo{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100% ;
+
+}
+
+.dentro-esquerdo{
+    width: 20%;
+    background-color: white;
+    height: 100%;
+    
+}
+.dentro-esquerdo h3{
+    color: #333;
+    font-size: 15px;
+
+}
+.dentro-esquerdo a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: black;
+}
+
+.dentro-esquerdo a:hover{
+    border-left: 3px solid rgb(37, 37, 37);
+    background-color: rgb(245, 245, 245);
+    color: #222;
+    font-weight: bold;
+}
+
+
+.content{
+    width: 80%;
+    background-color: rgb(218, 217, 217);
+    
+    padding: 20px;
+}
+
+.info-box{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 10px;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+.grafico{
+    width: 300px;
+    height: 100%;
+    margin-bottom: 50px;
+}
