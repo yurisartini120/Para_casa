@@ -21,6 +21,8 @@ body{
 
 .img{
     text-align: left;
+
+  
 }
 
 .alin{
@@ -54,4 +56,17 @@ body{
     border-radius: 50px;
     background-color: rgb(145, 49, 49);
     box-shadow: 10px 10px 5px rgb(92, 23, 23);
+}
+
+
+@media screen and (max-width: 768px) {
+    .alin{
+        display: block;
+        background-image: none;
+    }
+    .img{
+       width: 50vw;
+       margin: 0;
+    }
+    
 }
