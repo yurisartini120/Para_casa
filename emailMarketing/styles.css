@@ -3,6 +3,7 @@ body{
     background-size: 100% 100%;
 
     width: 100vh;
+    height: auto;
 
 }
 
@@ -19,16 +20,7 @@ main{
     font-size: 25px;
 }
 
-footer{
-    color: rgb(255, 255, 255);
-    text-align: center;
-    background-color: rgba(50, 59, 59, 0.404);
-    margin-left: 60%;
-    border: 1px solid rgba(50, 59, 59, 0.404) ;
-    border-radius: 10px;
-    
 
-}
 
 .container{
     background-color: rgba(50, 59, 59, 0.404);
@@ -44,4 +36,16 @@ footer{
 .title{
     margin-top: 10%;
 
+}
+
+@media (width:650px){
+    body{
+          display: block;
+        background-image: none;
+    }
+    .container{
+        display: block;
+        background-image: none;
+    }
+  
 }
